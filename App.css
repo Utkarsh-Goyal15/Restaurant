@@ -1,0 +1,216 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+}
+.navigation{
+  backdrop-filter: blur(7px);
+  color:white;
+  list-style: none;
+  padding: 3px;
+  position: fixed;
+  top:0px;
+  width:100vw;
+  text-align: center;
+  font-size: x-large;
+}
+.invisible{
+  display: none;
+}
+.visible{
+  display: block;
+}
+a:link{
+  text-decoration: none;
+  margin: 10px;
+}
+.link{
+  height: 10px;
+}
+#navbtn{
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  padding: 2px;
+  width: 25px;
+  height: 20px;
+}
+.line{
+  height: 3px;
+  width: 20px;
+  border: 2px;
+  margin: 2px;
+  background-color: black;
+}
+.line2{
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+#bg{
+  background-image:url("./images/interior.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.round{
+  width: 100%;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+#options{
+  position: absolute;
+  top: 25vw;
+  left: 45%;
+}
+.name{
+  position:absolute;
+  top: 5vw;
+  left:4vw;
+  padding-top: 7%;
+  width: 90vw;
+  height: 100px;
+  font-size: xx-large;
+  color: bisque;
+}
+.bgAbout{
+  background-image: url("./images/food1.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+#description{
+  border:solid 2px white;
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  font-size: 150%;
+}
+.About{
+  font-size: 400%;
+  position: absolute;
+  top: 10vh;
+  left: 45vw;
+}
+.Book{
+  position: absolute;
+  top: 15vh;
+  left: 45vw;
+}
+
+.Menu{
+  position: absolute;
+  top: 15vh;
+  left: 45vw;
+}
+
+#ContactH{
+  color:white;
+  position: absolute;
+  top: 15vh;
+  left: 40vw;
+}
+#bgContact{
+  background-image: url("./images/food2.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contact{ 
+  margin-top: 10px;
+  color:white;
+  border:solid 2px white;
+  width: 40vw;
+  height: 10vh;
+  position: absolute;
+  top: 20vh;
+  left: 22vw;
+  text-align: center;
+  font-size: 180%;
+  padding: 10vh;
+}
+
+#bgMenu{
+  background-image: url("./images/food3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#bgBook{
+  background-image: url("./images/food3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;  
+}
+.Bookform{
+  font-size: 200%;
+  padding-top: 20vh;
+  border:solid 2px white;
+  width: 40vw;
+  height: 40vh;
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  text-align: center;
+}
+
+@media(max-width:400px){
+  .name{
+    width:70vw;
+    left: 11vw;
+  }
+  .navigation{
+    font-size: small;
+  }
+  #options{
+    top: 50vh;
+    left: 30vw;
+  }
+  #description{
+    width: 70vw;
+    height: 80vh;
+    overflow: auto;
+    left: 20vw;
+    top: 10vh;
+  }
+  .About{
+    top: 4vh;
+  }
+  .Book{
+    top:4vh;
+    left:35vw;
+  }
+  .Bookform{
+    left:15vw;
+    width: 70vw;
+  }
+  
+  .Menu{
+    top:4vh;
+    left:45vw;
+  }
+  .menuSize{
+    font-size: x-small;
+  }
+  
+  #ContactH{
+    top:4vh;
+    left:30vw;
+  }
+  .Contact{
+    left: 25vw;
+    height: 25vh;
+    padding: 7vh;
+    font-size: large;
+    color:white
+  }
+}
